@@ -22,9 +22,16 @@
         <p>Input the values in the text boxes.</p>
         <form method="get" action="calculate.php">
             <table>
-                <tr><td class="right">Enter the Diameter:</td><td><input type="text" name="diameter" width="100"></td></tr>
-                <tr><td class="right">Enter the Depth:</td><td><input type="text" name="depth" width="100"></td></tr>
-                <tr><td class="right" colspan="2"><input type="submit" value="Submit"></td></tr>
+                <tr>
+                    <td class="right">Enter the Diameter:</td>
+                    <td><input type="text" name="diameter" width="100"></td>
+                </tr>
+                <tr>
+                    <td class="right">Enter the Depth:</td><td><input type="text" name="depth" width="100"></td>
+                </tr>
+                <tr>
+                    <td class="right" colspan="2"><input type="submit" value="Submit"></td>
+                </tr>
             </table>
         </form>
     </body>
